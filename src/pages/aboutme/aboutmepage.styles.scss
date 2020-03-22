@@ -1,0 +1,84 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto+Slab|Open+Sans:400italic,700italic,400,700);
+
+// Font Variables
+$roboto-slab: 'Roboto Slab', serif;   
+$open-sans: 'Open Sans', sans-serif;
+
+.profile6{
+    padding-top: 35px;
+    background-color: white;
+    padding-right: 200px;
+    padding-left: 200px;
+    min-width: 1020px;
+    height:auto;
+
+    .title {
+        text-align: center;
+        font-family: $roboto-slab;
+        color: teal;
+        font-weight: initial;
+        font-size: 48px;
+        margin-bottom: 0px;
+    }
+
+    .title2 {
+    font-style: $roboto-slab;
+    font-size: 30px;
+    color: teal;
+    font-weight: initial;
+  }
+
+    .writing {
+        margin-top: 4px;
+        font-size: 16px;
+        font-family: 'Times New Roman', Times, serif;
+        font-weight: initial;
+        color: black;
+        letter-spacing: normal;
+    }
+
+    .writing2 {
+      margin-top: 4px;
+      font-family: $roboto-slab;
+      font-size: 14px;
+      font-weight: initial, bolder;
+  }
+
+    .column {
+        float: left;
+        width: 85%;
+        padding: 10px;
+        //height: 300px; /* Should be removed. Only for demonstration */
+        font-weight: initial;
+      }
+      
+      /* Clear floats after the columns */
+      .row:after {
+        content: "";
+        display: table;
+        clear: both;
+      }
+}
+
+ul.no-bullets {
+  list-style-type: none;
+  :hover {
+      background: #d8edf2;
+      transition: transform 1.2s;
+      .score{
+      transform: scale(1.15);
+      }
+  }
+
+  .score {
+      float: left;
+      color: teal;
+      font-size: 14px;
+  }
+
+  .score2 {
+      color: #D3D3D3;
+      font-size: 14px; 
+        
+  }
+}

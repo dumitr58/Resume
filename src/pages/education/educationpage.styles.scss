@@ -1,0 +1,60 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto+Slab|Open+Sans:400italic,700italic,400,700);
+
+// Font Variables
+$roboto-slab: 'Roboto Slab', serif;   
+$open-sans: 'Open Sans', sans-serif;
+
+.profile2{
+    padding-top: 35px;
+    background-color: #dce8c8;
+    padding-right: 200px;
+    padding-left: 200px;
+    min-width: 1020px;
+    height:auto;
+
+    .title {
+        text-align: center;
+        font-family: $roboto-slab;
+        color: teal;
+        font-weight: initial;
+        font-size: 48px;
+        margin-bottom: 0px;
+    }
+
+    .writing {
+        margin-top: 4px;
+        font-family: $roboto-slab;
+        font-size: 14px;
+        font-weight: initial;
+    }
+
+    .writing2 {
+      margin-top: 4px;
+      font-family: $roboto-slab;
+      font-size: 14px;
+      font-weight: initial, bolder;
+  }
+
+    .column {
+        float: left;
+        width: 40%;
+        padding: 10px;
+        //height: 300px; /* Should be removed. Only for demonstration */
+        font-weight: initial;
+      }
+
+    .column2 {
+        float: left;
+        width: 55%;
+        padding: 10px;
+        //height: 300px; /* Should be removed. Only for demonstration */
+        font-weight: initial;   
+    }
+      
+      /* Clear floats after the columns */
+      .row:after {
+        content: "";
+        display: table;
+        clear: both;
+      }
+}

@@ -1,0 +1,80 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto+Slab|Open+Sans:400italic,700italic,400,700);
+
+// Font Variables
+$roboto-slab: 'Roboto Slab', serif;   
+$open-sans: 'Open Sans', sans-serif;
+
+.profile5{
+    padding-top: 35px;
+    background-color: dimgrey;
+    padding-right: 200px;
+    padding-left: 200px;
+    min-width: 1020px;
+    height: 350px;
+
+    .title {
+        text-align: center;
+        font-family: $roboto-slab;
+        color: white;
+        font-weight: initial;
+        font-size: 48px;
+        margin-bottom: 0px;
+    }
+
+    .title2 {
+        font-style: $roboto-slab;
+        color: white;
+    }
+
+    .writing {
+        margin-top: 4px;
+        font-family: $roboto-slab;
+        font-size: 18px;
+        font-weight: initial;
+        color: gainsboro;
+    }
+    
+    .writing2 {
+        padding-left: 10px;
+        margin-top: 4px;
+        font-family: $roboto-slab;
+        font-size: 16px;
+        font-weight: initial, bolder;
+        color: darkgrey;
+    }
+
+    
+    .column {
+        float: left;
+        width: 47%;
+        padding: 10px;
+        //height: 300px; /* Should be removed. Only for demonstration */
+        font-weight: initial;
+        
+      }
+
+    .column2 {
+        float: left;
+        width: 47%;
+        padding: 10px;
+        //height: 300px; /* Should be removed. Only for demonstration */
+        font-weight: initial;   
+    }
+      
+      /* Clear floats after the columns */
+      .row:after {
+        content: "";
+        display: table;
+        clear: both;
+      }
+}
+
+ul.no-bullets3 {
+    list-style-type: none;
+    padding-left: 5px;
+    border: none;
+    :hover {
+        color: white;
+        cursor: pointer;
+    }
+}

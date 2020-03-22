@@ -1,0 +1,15 @@
+{
+	"auth": {
+		"resume68400740": {
+			"service": "Cognito",
+			"providerPlugin": "awscloudformation",
+			"dependsOn": []
+		}
+	},
+	"storage": {
+		"s341189d5b": {
+			"service": "S3",
+			"providerPlugin": "awscloudformation"
+		}
+	}
+}

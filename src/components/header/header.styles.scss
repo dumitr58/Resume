@@ -1,0 +1,63 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto+Slab|Open+Sans:400italic,700italic,400,700);
+
+// Font Variables
+$roboto-slab: 'Roboto Slab', serif;   
+$open-sans: 'Open Sans', sans-serif;
+
+.header {
+    background-color: teal;
+    height: 90px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+    min-width: 660px;
+  
+    .logo-container {
+      height: 100%;
+      width: 70px;
+      padding: 25px;
+      margin: 0px;
+      overflow: visible;
+    }
+
+    .logo {
+      padding-left: -100px;
+      transform-origin: 100%, 50%;
+      overflow: visible;
+      transform: scale(2,2);
+     }
+
+.options {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    font-size: large;
+    font-style: oblique;
+    font-family: $roboto-slab;
+    font-weight: bold;
+    font-size: 14px;
+    a {
+      all: unset;
+    }
+    :hover {
+        background: black;
+        color: teal;
+    }
+
+    .option {
+      padding: 10px 15px;
+      cursor: pointer;
+    //  color: inherit;
+    //    border: none;
+    }
+  }
+}
+
+a {
+  all: unset;
+}

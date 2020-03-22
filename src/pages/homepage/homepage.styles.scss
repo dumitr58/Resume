@@ -1,0 +1,68 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto+Slab|Open+Sans:400italic,700italic,400,700);
+
+// Font Variables
+$roboto-slab: 'Roboto Slab', serif;   
+$open-sans: 'Open Sans', sans-serif;
+.profile{
+    padding-top: 125px;
+    padding-right: 200px;
+    padding-left: 200px;
+    min-width: 1020px;
+    height:auto;
+
+.title {
+    text-align: center;
+    font-family: $roboto-slab;
+    color: teal;
+    font-weight: initial;
+    font-size: 48px;
+    margin-bottom: 0px;
+}
+.title2 {
+    font-style: $roboto-slab;
+    font-size: 30px;
+    color: teal;
+}
+
+.writing {
+    margin-top: 4px;
+    font-family: $roboto-slab;
+    font-size: 14px;
+    font-weight: initial;
+}
+
+.writing2 {
+    margin-top: 4px;
+    font-family: $roboto-slab;
+    font-size: 14px;
+    font-weight: initial, bolder;
+}
+
+// for Profile separating into columns
+.column {
+    float: left;
+    width: 31%;
+    padding: 10px;
+    height: 300px; /* Should be removed. Only for demonstration */
+    font-weight: initial;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  .profile-picture {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      border-radius: 50% 50% 50% 50%;
+      border-width: 25px;
+      height: 200px;
+      width: 200px;
+      overflow: hidden;
+}
+}
+
